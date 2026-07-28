@@ -180,10 +180,8 @@ function App() {
               VeecoTech ↗
             </a>
             <ul className="list-disc list-outside ml-5 space-y-2 text-slate-300 text-sm md:text-base">
+              <li>Joining as intern for 2 semesters (8 months including semester break).</li>
               <li>Design and develop dynamic web applications using PHP.</li>
-              <li>Maintaining, debugging and upgrading existing websites.</li>
-              <li>Communicate key insights and findings to the developer team.</li>
-              <li>Adapt to the fast paced and start-up style working environment, involved everything including fixing bugs, developing new features and communicating with clients.</li>
             </ul>
           </div>
         </section>
