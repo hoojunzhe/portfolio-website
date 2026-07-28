@@ -66,6 +66,41 @@ function App() {
 
       <main className="max-w-5xl mx-auto px-4 md:px-6 py-16 space-y-20">
         
+        {/* NEW: MY RESUME DOWNLOAD SECTION */}
+        <section className="bg-slate-800/40 p-8 rounded-xl border border-slate-700 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+          <div>
+            <h3 className="text-2xl font-bold text-white mb-2">My Resume</h3>
+            <p className="text-slate-400 text-sm">Download a full copy of my resume for your records.</p>
+          </div>
+          
+          <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+            {/* PDF Download Button */}
+            <a 
+              href="/Hoo Jun Zhe_resume.pdf" 
+              download="Hoo_Jun_Zhe_Resume.pdf" 
+              className="inline-flex items-center justify-center bg-red-600/90 text-white px-6 py-3 rounded-md font-medium hover:bg-red-500 transition shadow-lg shadow-red-900/20 border border-red-500"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 13l2 2 4-4"></path>
+              </svg>
+              Download in PDF
+            </a>
+
+            {/* Word Download Button */}
+            <a 
+              href="/Hoo Jun Zhe_resume.docx" 
+              download="Hoo_Jun_Zhe_Resume.docx" 
+              className="inline-flex items-center justify-center bg-blue-600/90 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-500 transition shadow-lg shadow-blue-900/20 border border-blue-500"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+              Download in Word
+            </a>
+          </div>
+        </section>
+
         {/* SKILLS SECTION */}
         <section>
           <h3 className="text-2xl font-bold border-b border-slate-700 pb-2 mb-8 text-white">Core Competencies</h3>
@@ -152,18 +187,32 @@ function App() {
           </div>
         </section>
 
-        {/* PERSONAL PROJECTS SECTION */}
+        {/* PERSONAL PROJECTS SECTION (Updated based on latest resume) */}
         <section>
           <h3 className="text-2xl font-bold border-b border-slate-700 pb-2 mb-8 text-white">Personal Projects</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             
-            {/* React Todo List Card */}
-            <div className="bg-slate-800/50 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors flex flex-col overflow-hidden shadow-lg">
-              <img src="/todo-list.png" alt="React Todo List Interface" className="w-full h-56 object-cover object-top border-b border-slate-700" />
-              <div className="p-6 flex flex-col flex-grow">
-                <h4 className="text-xl font-bold text-white mb-3">React Todo List</h4>
+            {/* Portfolio Website Card */}
+            <div className="bg-slate-800/50 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors flex flex-col shadow-lg p-6">
+              <div className="flex flex-col flex-grow">
+                <h4 className="text-xl font-bold text-white mb-3">My Portfolio Website</h4>
                 <p className="text-slate-300 text-sm mb-4 flex-grow">
-                  A to-do list application that allows users to add, delete, edit, and mark tasks as completed.
+                  Build this React portfolio website with my coding knowledge and the help of AI tools.
+                </p>
+                <div className="mb-5 flex gap-2 flex-wrap">
+                  <span className="bg-slate-700 text-blue-300 text-xs px-2.5 py-1 rounded-sm font-medium">React.js</span>
+                  <span className="bg-slate-700 text-purple-300 text-xs px-2.5 py-1 rounded-sm font-medium">AI Tools</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Cryptocurrency Tracker Card */}
+            <div className="bg-slate-800/50 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors flex flex-col overflow-hidden shadow-lg">
+              <img src="/crypto-tracker.png" alt="Cryptocurrency Tracker Interface" className="w-full h-48 object-cover object-top border-b border-slate-700" />
+              <div className="p-6 flex flex-col flex-grow">
+                <h4 className="text-xl font-bold text-white mb-3">Cryptocurrency Tracker</h4>
+                <p className="text-slate-300 text-sm mb-4 flex-grow">
+                  This React web application will track the current price of various cryptocurrencies. User can search for 100 types of cryptocurrencies in the application.
                 </p>
                 <div className="mb-5 flex gap-2 flex-wrap">
                   <span className="bg-slate-700 text-blue-300 text-xs px-2.5 py-1 rounded-sm font-medium">React.js</span>
@@ -174,13 +223,13 @@ function App() {
               </div>
             </div>
 
-            {/* Cryptocurrency Tracker Card */}
+            {/* React Todo List Card */}
             <div className="bg-slate-800/50 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors flex flex-col overflow-hidden shadow-lg">
-              <img src="/crypto-tracker.png" alt="Cryptocurrency Tracker Interface" className="w-full h-56 object-cover object-top border-b border-slate-700" />
+              <img src="/todo-list.png" alt="React Todo List Interface" className="w-full h-48 object-cover object-top border-b border-slate-700" />
               <div className="p-6 flex flex-col flex-grow">
-                <h4 className="text-xl font-bold text-white mb-3">Cryptocurrency Tracker</h4>
+                <h4 className="text-xl font-bold text-white mb-3">React Todo List</h4>
                 <p className="text-slate-300 text-sm mb-4 flex-grow">
-                  This React.js web application tracks the current price of various cryptocurrencies. Users can search for 100 types of cryptocurrencies in the application.
+                  A to-do list application that allow user to perform add, delete, edit and mark tasks as completed. The web app is developed with React.
                 </p>
                 <div className="mb-5 flex gap-2 flex-wrap">
                   <span className="bg-slate-700 text-blue-300 text-xs px-2.5 py-1 rounded-sm font-medium">React.js</span>
