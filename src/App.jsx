@@ -173,11 +173,11 @@ function App() {
 
           <div className="bg-slate-800/50 p-6 md:p-8 rounded-xl border border-slate-700 hover:border-slate-600 transition-colors">
             <div className="flex flex-col md:flex-row md:justify-between md:items-baseline gap-2 mb-1">
-              <h4 className="text-xl font-bold text-white">Web Intern</h4>
+              <h4 className="text-xl font-bold text-white">Web Development, Intern</h4>
               <span className="text-sm font-medium text-slate-400 self-start md:self-auto">Sep 2019 - Apr 2020</span>
             </div>
             <a href="http://www.veecotech.com.my" target="_blank" rel="noreferrer" className="text-blue-400 font-medium mb-5 inline-block hover:text-blue-300 hover:underline">
-              VeecoTech Web & E-Commerce ↗
+              VeecoTech ↗
             </a>
             <ul className="list-disc list-outside ml-5 space-y-2 text-slate-300 text-sm md:text-base">
               <li>Design and develop dynamic web applications using PHP.</li>
@@ -284,7 +284,7 @@ function App() {
               <p className="text-slate-500 text-sm mt-3 italic">*Phone number available upon request</p>
             </div>
             <div className="bg-slate-800/50 p-6 rounded-xl border border-slate-700">
-              <h4 className="text-lg font-bold text-white">Ms. Nur Fara’ain Binti Ebbie Izman</h4>
+              <h4 className="text-lg font-bold text-white">Ms. Nur Fara’ain</h4>
               <p className="text-blue-400 font-medium">Senior Business Consultant</p>
               <p className="text-slate-400 text-sm mt-1">Hokenso</p>
               <p className="text-slate-500 text-sm mt-3 italic">*Phone number available upon request</p>
