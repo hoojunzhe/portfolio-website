@@ -84,7 +84,7 @@ function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 13l2 2 4-4"></path>
               </svg>
-              Download in PDF
+              PDF
             </a>
 
             {/* Word Download Button */}
@@ -96,7 +96,7 @@ function App() {
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
               </svg>
-              Download in Word
+              Word
             </a>
           </div>
         </section>
@@ -104,16 +104,15 @@ function App() {
         {/* SKILLS SECTION */}
         <section>
           <h3 className="text-2xl font-bold border-b border-slate-700 pb-2 mb-8 text-white">Core Competencies</h3>
-          {/* Added justify-center for mobile to prevent lonely wrap elements, md:justify-start for desktop */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
-            {/* Reordered array to balance text length and group logical tools together */}
+          {/* Changed to a 2-column grid layout with rectangular block styling */}
+          <div className="grid grid-cols-2 gap-3 md:gap-4">
             {['Agile methodology', 'Process mapping', 'Jira', 'Confluence', 'Figma', 'Generative AI tools', 'Microsoft Excel', 'PowerPoint'].map((skill) => (
-              <span 
+              <div 
                 key={skill} 
-                className="bg-slate-800 border border-slate-700 px-4 py-2 md:px-5 md:py-2.5 rounded-full text-sm font-medium text-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-slate-700 hover:text-blue-300 hover:shadow-md hover:border-slate-500 cursor-default text-center"
+                className="bg-slate-800 border border-slate-700 px-4 py-4 md:px-5 md:py-5 rounded-md text-sm md:text-base font-medium text-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-slate-700 hover:text-blue-300 hover:shadow-md hover:border-slate-500 cursor-default flex items-center justify-center text-center"
               >
                 {skill}
-              </span>
+              </div>
             ))}
           </div>
         </section>
