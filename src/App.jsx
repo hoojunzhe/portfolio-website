@@ -104,11 +104,13 @@ function App() {
         {/* SKILLS SECTION */}
         <section>
           <h3 className="text-2xl font-bold border-b border-slate-700 pb-2 mb-8 text-white">Core Competencies</h3>
-          <div className="flex flex-wrap gap-3 md:gap-4">
-            {['Jira', 'Confluence', 'Figma', 'Agile methodology', 'Process mapping', 'Microsoft Excel', 'PowerPoint', 'Generative AI tools'].map((skill) => (
+          {/* Added justify-center for mobile to prevent lonely wrap elements, md:justify-start for desktop */}
+          <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
+            {/* Reordered array to balance text length and group logical tools together */}
+            {['Agile methodology', 'Process mapping', 'Jira', 'Confluence', 'Figma', 'Generative AI tools', 'Microsoft Excel', 'PowerPoint'].map((skill) => (
               <span 
                 key={skill} 
-                className="bg-slate-800 border border-slate-700 px-4 py-2 md:px-5 md:py-2.5 rounded-full text-sm font-medium text-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-slate-700 hover:text-blue-300 hover:shadow-md hover:border-slate-500 cursor-default"
+                className="bg-slate-800 border border-slate-700 px-4 py-2 md:px-5 md:py-2.5 rounded-full text-sm font-medium text-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-slate-700 hover:text-blue-300 hover:shadow-md hover:border-slate-500 cursor-default text-center"
               >
                 {skill}
               </span>
