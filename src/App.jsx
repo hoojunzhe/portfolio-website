@@ -40,19 +40,17 @@ function App() {
         {/* Hero Content */}
         <div className="relative z-10 w-full max-w-5xl mx-auto px-6 py-20 text-center md:text-left flex flex-col items-center md:items-start">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-lg">Hoo Jun Zhe</h1>
-          <h2 className="text-xl md:text-3xl text-blue-400 font-medium mt-3 drop-shadow">Business Analyst & Product Owner</h2>
+          <h2 className="text-xl md:text-3xl text-blue-400 font-medium mt-3 drop-shadow">Business Analyst / Product Owner</h2>
           
           <p className="mt-6 text-base md:text-lg text-slate-200 leading-relaxed max-w-3xl drop-shadow-md">
-            Strategic Business Analyst and former Software Developer with hands-on experience driving Agile projects through the complete SDLC. Currently pursuing an MBA, I specialize in translating complex stakeholder needs into actionable user stories using Jira and Figma. I excel at managing cross-functional teams to deliver impactful products, including large-scale mobile app migrations.
+            Strategic Business Analyst and former Software Developer with hands-on experience driving Agile projects through the complete SDLC. Currently pursuing an MBA, I specialize in translating complex stakeholder needs into actionable user stories using Jira and Figma. I also excel at managing cross-functional teams to deliver impactful products, including large-scale mobile app migrations.
           </p>
 
           {/* Mobile-friendly Button Stacking */}
           <div className="mt-10 flex flex-col sm:flex-row flex-wrap w-full sm:w-auto justify-center md:justify-start gap-4">
-            {/* UPDATED: Deeper Green WhatsApp Button */}
             <a href="https://wa.me/60175517696" target="_blank" rel="noreferrer" className="bg-green-700 text-white px-8 py-3 rounded-md font-medium text-center hover:bg-green-600 transition shadow-lg shadow-green-900/40">
               WhatsApp Me
             </a>
-            {/* UPDATED: Deeper Blue Email Button */}
             <a href="mailto:hoojunzhe@gmail.com" className="bg-blue-700 text-white px-8 py-3 rounded-md font-medium text-center hover:bg-blue-600 transition shadow-lg shadow-blue-900/40">
               Email Me
             </a>
@@ -86,7 +84,7 @@ function App() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 13l2 2 4-4"></path>
               </svg>
-              Download in PDF
+              PDF
             </a>
 
             {/* Word Download Button */}
@@ -98,7 +96,7 @@ function App() {
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
               </svg>
-              Download in Word
+              Word
             </a>
           </div>
         </section>
@@ -131,7 +129,7 @@ function App() {
               Hokenso (subsidiary under Hitachi ebWorx) ↗
             </a>
             <ul className="list-disc list-outside ml-5 space-y-2 text-slate-300 text-sm md:text-base">
-              <li>Main PIC of SG insurance app and React Native migration project.</li>
+              <li>Main consultant for SG insurance mobile app project and React Native migration project.</li>
               <li>Collaborate with cross-functional team (Product, UX, QA, Dev etc...) on Scrum-Agile methodology and be involved throughout the SDLC phases.</li>
               <li>Prepare functional specification document (FSD), process / data mapping, and other documentations to ensure the requirement is aligned.</li>
               <li>Gather, analyze and refine the requirements from stakeholders, then translate into user story with Jira, Confluence and Figma.</li>
@@ -219,7 +217,7 @@ function App() {
                 <div className="mb-5 flex gap-2 flex-wrap">
                   <span className="bg-slate-700 text-blue-300 text-xs px-2.5 py-1 rounded-sm font-medium">React.js</span>
                 </div>
-                <a href="https://junzhe-todolist.netlify.app/" target="_blank" rel="noreferrer" className="text-blue-400 text-sm font-medium hover:text-blue-300 hover:underline mt-auto inline-flex items-center">
+                <a href="https://hoo-crypto-tracker.netlify.app" target="_blank" rel="noreferrer" className="text-blue-400 text-sm font-medium hover:text-blue-300 hover:underline mt-auto inline-flex items-center">
                   View Live App ↗
                 </a>
               </div>
