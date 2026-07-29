@@ -40,7 +40,7 @@ function App() {
         {/* Hero Content */}
         <div className="relative z-10 w-full max-w-5xl mx-auto px-6 py-20 text-center md:text-left flex flex-col items-center md:items-start">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-lg">Hoo Jun Zhe</h1>
-          <h2 className="text-xl md:text-3xl text-blue-400 font-medium mt-3 drop-shadow">Business Analyst & Product Owner</h2>
+          <h2 className="text-xl md:text-3xl text-blue-400 font-medium mt-3 drop-shadow">Business Analyst / Product Owner</h2>
           
           <p className="mt-6 text-base md:text-lg text-slate-200 leading-relaxed max-w-3xl drop-shadow-md">
             Strategic Business Analyst and former Software Developer with hands-on experience driving Agile projects through the complete SDLC. Currently pursuing an MBA, I specialize in translating complex stakeholder needs into actionable user stories using Jira and Figma. I excel at managing cross-functional teams to deliver impactful products, including large-scale mobile app migrations.
@@ -70,7 +70,7 @@ function App() {
         <section className="bg-slate-800/40 p-8 rounded-xl border border-slate-700 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
           <div>
             <h3 className="text-2xl font-bold text-white mb-2">My Resume</h3>
-            <p className="text-slate-400 text-sm">Download a full copy of my resume for your records.</p>
+            <p className="text-slate-400 text-sm">Download a copy of my resume for your records.</p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
@@ -129,7 +129,7 @@ function App() {
               Hokenso (subsidiary under Hitachi ebWorx) ↗
             </a>
             <ul className="list-disc list-outside ml-5 space-y-2 text-slate-300 text-sm md:text-base">
-              <li>Main PIC of SG insurance app and React Native migration project.</li>
+              <li>Main consultant for SG insurance mobile app project and React Native migration project.</li>
               <li>Collaborate with cross-functional team (Product, UX, QA, Dev etc...) on Scrum-Agile methodology and be involved throughout the SDLC phases.</li>
               <li>Prepare functional specification document (FSD), process / data mapping, and other documentations to ensure the requirement is aligned.</li>
               <li>Gather, analyze and refine the requirements from stakeholders, then translate into user story with Jira, Confluence and Figma.</li>
