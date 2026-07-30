@@ -105,7 +105,7 @@ function App() {
         <section>
           <h3 className="text-2xl font-bold border-b border-slate-700 pb-2 mb-8 text-white">Core Competencies</h3>
           <div className="grid grid-cols-2 gap-3 md:gap-4">
-            {['Agile methodology', 'Process mapping', 'Jira and Confluence', 'Figma', 'Generative AI tools', 'Excel', 'PowerPoint', 'SQL'].map((skill) => (
+            {['Agile methodology', 'Process mapping', 'Jira and Confluence', 'Figma', 'Generative AI tools', 'Excel', 'User Acceptance Testing', 'SQL'].map((skill) => (
               <div 
                 key={skill} 
                 className="bg-slate-800 border border-slate-700 px-4 py-4 md:px-5 md:py-5 rounded-md text-sm md:text-base font-medium text-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:bg-slate-700 hover:text-blue-300 hover:shadow-md hover:border-slate-500 flex items-center justify-center text-center"
